@@ -48,9 +48,13 @@ previous_block = blockchain[0]
 # Define after how many blocks to exit
 try:
     wait_period = int(environ.get('WAIT_PERIOD'))
-    exit_count = int(environ.get('EXIT_COUNT'))
 except TypeError:
     wait_period = 1
+
+
+try:
+    exit_count = int(environ.get('EXIT_COUNT'))
+except TypeError:
     exit_count = float("inf")  # Infinite
 
 
