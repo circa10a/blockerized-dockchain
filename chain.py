@@ -18,7 +18,7 @@ class Block:
 
     def hash_block(self):
         sha = hasher.sha256()
-        string = f"{str(self.index)} {str(self.timestamp)} {str(self.data)} {str(self.previous_hash)}".encode('utf-8')
+        string = f"{self.index} {self.timestamp} {self.data} {self.previous_hash}".encode('utf-8')
         sha.update(string)
         return sha.hexdigest()
 
@@ -34,7 +34,7 @@ def create_genesis_block():
 def next_block(last_block):
     this_index = last_block.index + 1
     this_timestamp = date.datetime.now()
-    this_data = f"Hey! I'm block {str(this_index)}"
+    this_data = f"Hey! I'm block {this_index}"
     this_hash = last_block.hash
     return Block(this_index, this_timestamp, this_data, this_hash)
 
@@ -63,6 +63,7 @@ while True:
     # Logs
     print(f"Block {block_to_add.index} has been added to the blockchain!")
     print(f"Hash: {block_to_add.hash}")
+    print()
     sleep(wait_period)
     # Exit based on threshold
     if block_to_add.index == exit_count:
