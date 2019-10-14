@@ -41,3 +41,10 @@ docker run --rm -e EXIT_COUNT=20 -e WAIT_PERIOD=2 --name blockerized-dockchain c
 - Big Data
 - Quantum Computing
 - IOT
+
+
+## Credits
+
+- Original name coined by [infidex](https://github.com/infidex)
+- Original blockchain application by [Gerald Nash](https://medium.com/@aunyks)
+- Photo by [morioh.com](https://morioh.com/p/b46e20454368)
