@@ -44,7 +44,6 @@ docker run --rm -e EXIT_COUNT=20 -e WAIT_PERIOD=2 --name blockerized-dockchain c
 - Microkernel
 - IOT
 
-
 ## Credits
 
 - Original name coined by [infidex](https://github.com/infidex)
