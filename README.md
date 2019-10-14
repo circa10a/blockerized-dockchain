@@ -6,8 +6,16 @@ Because all problems are solvable with containers and blockchains
 
 ## Usage
 
+### Docker
+
 ```shell
 docker run --rm --name blockerized-dockchain circa10a/blockerized-dockchain
+```
+
+### Kubernetes
+
+```shell
+kubectl apply -f https://raw.githubusercontent.com/circa10a/blockerized-dockchain/master/k8s-deployment.yaml
 ```
 
 ### Options

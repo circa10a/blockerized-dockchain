@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blockerized-dockchain-deployment
+  labels:
+    app: blockerized-dockchain
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: blockerized-dockchain
+  template:
+    metadata:
+      labels:
+        app: blockerized-dockchain
+    spec:
+      containers:
+      - name: blockerized-dockchain
+        image: circa10a/blockerized-dockchain
+        env:
+        - name: WAIT_PERIOD
+          value: 1
