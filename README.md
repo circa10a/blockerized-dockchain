@@ -1,6 +1,6 @@
 # blockerized-dockchain
 
-Because all problems are solvable with containers and blockchains
+Create a blockchain in a docker container, because all problems are solvable with containers and blockchains.
 
 ![alt text](https://i.imgur.com/vRLEtBr.jpg)
 
