@@ -38,8 +38,10 @@ docker run --rm -e EXIT_COUNT=20 -e WAIT_PERIOD=2 --name blockerized-dockchain c
 - Machine Learning
 - AI
 - Cloud
+- Serverless
 - Big Data
 - Quantum Computing
+- Microkernel
 - IOT
 
 
