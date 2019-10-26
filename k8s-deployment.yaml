@@ -18,5 +18,5 @@ spec:
       - name: blockerized-dockchain
         image: circa10a/blockerized-dockchain
         env:
-        - name: WAIT_PERIOD
-          value: 1
+          - name: WAIT_PERIOD
+            value: "1"
