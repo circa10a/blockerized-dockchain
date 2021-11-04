@@ -33,8 +33,16 @@ Opts are set via environment variables
 docker run --rm -e EXIT_COUNT=20 -e WAIT_PERIOD=2 --name blockerized-dockchain circa10a/blockerized-dockchain
 ```
 
+## Our Leadership
+
+Please give a thanks to our sponsor as we navigate the future that is the metaverse.
+
+![alt text](https://nypost.com/wp-content/uploads/sites/2/2020/07/Mark_Zuckerberg.jpg?quality=80&strip=all)
+
 ## Roadmap
 
+- Metaverse
+  - Singularity
 - Machine Learning
 - AI
 - Cloud
