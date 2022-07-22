@@ -15,7 +15,7 @@ docker run --rm --name blockerized-dockchain circa10a/blockerized-dockchain
 ### Kubernetes
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/circa10a/blockerized-dockchain/master/k8s-deployment.yaml
+kubectl apply -f https://raw.githubusercontent.com/circa10a/blockerized-dockchain/main/k8s-deployment.yaml
 ```
 
 ### Options
